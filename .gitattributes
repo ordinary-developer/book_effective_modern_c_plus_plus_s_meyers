@@ -1,0 +1,11 @@
+text=auto
+
+*.txt text
+*.cpp text
+*.h   text
+*.hpp text 
+
+gitlab
+"https://gitlab.com/book_synopses_and_code_samples/effective_modern_c_plus_plus_s_meyers.git"
+github
+"https://github.com/ordinary-developer/book_effective_modern_c_plus_plus_s_meyers.git"
