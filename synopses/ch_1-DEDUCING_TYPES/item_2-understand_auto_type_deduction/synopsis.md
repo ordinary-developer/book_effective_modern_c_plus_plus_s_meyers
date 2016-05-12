@@ -1,8 +1,7 @@
-understand auto type deduction
+Understand auto type deduction
 ==============================
 
-
-common
+Common
 ------
 
 ```c++
@@ -12,12 +11,11 @@ void f(ParamType parameter);
 f(expr); 
 ```
 
-when a variable is declared using "auto", 
+When a variable is declared using "auto", 
 "auto" plays the role of "T" in the template,
-and the type specifier for the variable acts as "ParamType"
+and the type specifier for the variable acts as "ParamType".
 
-so the next snippets are "equal"
-
+So the next snippets are "equal":
 ```c++
 auto x = 27;
 
@@ -28,6 +26,7 @@ void f_for_x(T param);
 f_for_x(27);
 ```
 
+And the next snippets are also "equal":
 ```c++
 const auto cx = x;
 
@@ -38,6 +37,7 @@ void f_for_cx(const T param);
 f_for_cx(x);
 ```
 
+And the next snippets are also "equal":
 ```c++
 const auto& rx = x;
 
@@ -48,15 +48,14 @@ void f_for_rx(const T& param);
 f_for_rx(x);
 ```
 
-and rules for template type deducing can be applied
+And rules for template type deducing can be applied.
 
 
-auxiliary
+Auxiliary
 ---------
 
 - "auto" type deduction assumes that a braced initializer 
   represents a "std::initializer_list",
-  and template type deduction doesn't
+  and template type deduction doesn't;
 - "auto" in a function return type or a lambda parameter
-  implies template type deduction, not "auto" type deduction
-
+  implies template type deduction, not "auto" type deduction.
