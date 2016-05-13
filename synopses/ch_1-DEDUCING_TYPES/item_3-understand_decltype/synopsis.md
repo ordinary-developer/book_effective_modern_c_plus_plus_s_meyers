@@ -1,12 +1,10 @@
-understand decltype
+Understand decltype
 ===================
 
-
-common
+Common
 ------
 
-the "decltype(auto)" specifier means the next:
+The "decltype(auto)" specifier means the next:
 "auto" specifies that the type is to be deduced,
 and "decltype" says that "decltype" rules 
-should be used during deduction
- 
+should be used during deduction.
