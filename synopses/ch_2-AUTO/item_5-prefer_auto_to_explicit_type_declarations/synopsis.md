@@ -1,16 +1,15 @@
-prefer auto to explicit type declarations
+Prefer auto to explicit type declarations
 =========================================
 
+Common
+------
 
-base
-----
+The advantages of auto:
+- avoidance of uninitialized variables;
+- verbose variable declarations;
+- ability to directly hold closures;
 
-the advantages of auto:
-- avoidance of uninitialized variables
-- verbose variable declarations
-- ability to directly hold closures
+std::function object can refer to any callable object.
 
-std::function object can refer to any callable object
-
-the "std::function" approach is generally bigger and slower than
-the "auto" approach
+The "std::function" approach is generally bigger and slower than
+the "auto" approach.
