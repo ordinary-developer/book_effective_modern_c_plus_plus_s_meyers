@@ -1,19 +1,17 @@
-understand special member function generation
+Understand special member function generation
 =============================================
 
-base
-----
+Common
+------
 
 C++ has six special member functions:
 
 - default constructor
   (generated only if the class contains no user-declared 
-   constructors at all)
-
+   constructors at all);
 - destructor
   (desctructors are "noexcept" by default,
-   they are virtual only if a base class destructor is virtual)
-
+   they are virtual only if a base class destructor is virtual);
 - copy constructor
   (behavior: memberwise copy construction of non-static data members;
    generated only if the class lacks 
@@ -21,8 +19,7 @@ C++ has six special member functions:
    is independent from copy assignment operator declaring;
    deleted if the class declares a move operation;
    generation of this function in a class with a user-declared
-   copy assignment operator or destructor is deprecated)
-
+   copy assignment operator or destructor is deprecated);
 - copy assignment operator
   (behavior: memberwise copy assignment of non-static data members;
    generated only if the class lacks a user-declared copy assignment
@@ -30,8 +27,7 @@ C++ has six special member functions:
    is independent from copy constructor declaring;
    deleted if the class declares a move operation;
    generation of this function is a class with a user-defined
-   copy constructor or desctructor is deprecated)
-
+   copy constructor or desctructor is deprecated);
 - move constructor and move assignment operator (C++11)
   (each performs memberwise moving of non-static data members;
    generated of the class contains no user-declared copy operations
@@ -39,19 +35,18 @@ C++ has six special member functions:
    these two operations are not independent;
    memberwise move consists of move operations on data members
    and base classes that support move operations, 
-   but a copy operation for those that don't)
+   but a copy operation for those that don't).
 
-generated special member functions are implicitly "public" 
-and "inline"
+Generated special member functions are implicitly "public" 
+and "inline".
 
-generated functions are nonvirtual unless the function in question
+Generated functions are nonvirtual unless the function in question
 is a destructor in a derived class inheriting from a base class
-with a virtual destructor
+with a virtual destructor.
 
-member function templates never suppress generation of special
-member functions
+Member function templates never suppress generation of special
+member functions.
 
-"rule of three":
+"Rule of three":
 if you declare any of a copy constructor, copy assignmet operator,
-or destructor, you should declare all three
-
+or destructor, you should declare all three.
