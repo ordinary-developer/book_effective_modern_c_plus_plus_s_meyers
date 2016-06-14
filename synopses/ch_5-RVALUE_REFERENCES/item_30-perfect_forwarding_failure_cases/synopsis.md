@@ -1,8 +1,8 @@
 Familiarize yourself with perfect forwarding failure cases
 ==========================================================
 
-Base
-----
+Common
+------
 
 "Forwarding" just means that one function passes - *forwards* -
 its parameters to another function. The goal is for the second
@@ -33,8 +33,8 @@ Kinds of arguments that can't be perfect-forwarded
 
 - *Braced initializers*  
   Perfect forwarding fails when either of the following occurs:
-  - Compilers are unabled to deduce types
-  - Compilers deduce the "wrong" type
+  - compilers are unabled to deduce types;
+  - Compilers deduce the "wrong" type.
 - *0 or NULL as null pointers*  
   When you try to pass 0 or NULL as a null pointer to a template,
   type deduction goes awry, deducing an integral type (typically int)
@@ -42,16 +42,16 @@ Kinds of arguments that can't be perfect-forwarded
   The result is that neither 0 nor NULL can be perfect-forwarded as
   a null pointer. The fix is easy, however: pass "nullptr" instead
   of 0 or NULL.
-- Declaration-only integral static const data members
-- Overloaded function names and template names
-- Bitfilds
+- Declaration-only integral static const data members.
+- Overloaded function names and template names.
+- Bitfilds.
 
 
 Summary
 -------
 
-- Perfect forwarding fails when template type deduction fails or when
-  it deduces the wrong type.
+- perfect forwarding fails when template type deduction fails or when
+  it deduces the wrong type;
 - The kinds of arguments that lead to perfect forwardnig failure are
   braced initializers, null pointers expressed as 0 or NULL,
   declaration-only integral const static data members, template
