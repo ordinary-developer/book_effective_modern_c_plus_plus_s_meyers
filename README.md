@@ -17,11 +17,15 @@ Simply copy (clone the repository) and see and read it.
 Basic usage
 -----------
  
-`$ git clone https://gitlab.com/book_synopses_and_code_samples/effective_modern_c_plus_plus_s_meyers.git`
+```
+$ git clone https://gitlab.com/book_synopses_and_code_samples/effective_modern_c_plus_plus_s_meyers.git
+```
 
  or
 
-`$ git clone https://github.com/ordinary-developer/book_effective_modern_c_plus_plus_s_meyers.git`
+```
+$ git clone https://github.com/ordinary-developer/book_effective_modern_c_plus_plus_s_meyers.git
+```
 
  
 License
