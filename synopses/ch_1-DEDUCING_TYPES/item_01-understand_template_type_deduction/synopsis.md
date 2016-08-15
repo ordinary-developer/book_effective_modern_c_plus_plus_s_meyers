@@ -5,7 +5,7 @@ Base
 ----
 
 The next scheme will be useful for type deducing
-```c++
+```cpp
 template <typename T
 void f(ParamType parameter);
 
