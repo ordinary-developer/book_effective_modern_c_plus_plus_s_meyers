@@ -5,7 +5,6 @@ Base
 ----
 
 Many types fail to support move semantics.
-- For types in your
 - For types in your applications where no modifications for C++11
   (only old C++98 code) have been made, the existence of move 
   support in your compilers is likely to do you little good.
@@ -18,11 +17,11 @@ Many types fail to support move semantics.
 - For types without explicit support for moving and that don't
   qualify for compiler-generated move operations, there is no reason
   to expect C++11 to deliver andy kind of performance improvement
-  over C++98
+  over C++98.
 
 Data for a std::array's contents are stored directly in the 
 std::array object. Thus moving from one std::array to another runs
-in linear time because all elements must be moved
+in linear time because all elements must be moved.
 
 There are thus several scenarios in which C++11's move semantics 
 do you no good:
