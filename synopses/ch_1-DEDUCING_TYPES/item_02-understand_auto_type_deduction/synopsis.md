@@ -4,7 +4,7 @@ Understand auto type deduction
 Common
 ------
 
-```c++
+```cpp
 template <typename T> 
 void f(ParamType parameter); 
 
@@ -16,7 +16,7 @@ When a variable is declared using "auto",
 and the type specifier for the variable acts as "ParamType".
 
 So the next snippets are "equal":
-```c++
+```cpp
 auto x = 27;
 
 // and
@@ -27,7 +27,7 @@ f_for_x(27);
 ```
 
 And the next snippets are also "equal":
-```c++
+```cpp
 const auto cx = x;
 
 // and
@@ -38,7 +38,7 @@ f_for_cx(x);
 ```
 
 And the next snippets are also "equal":
-```c++
+```cpp
 const auto& rx = x;
 
 // and
