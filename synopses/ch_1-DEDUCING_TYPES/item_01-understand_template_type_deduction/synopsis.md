@@ -5,8 +5,9 @@ Base
 ----
 
 The next scheme will be useful for type deducing
+
 ```cpp
-template <typename T
+template <typename T>
 void f(ParamType parameter);
 
 f(expr);
