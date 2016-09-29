@@ -1,8 +1,8 @@
 Prefer scoped enums to unscoped enums
 =====================================
 
-Common
-------
+Base
+----
 
 - C++98 style enums are now known as unscoped enums;
 - enumerators of scoped enums are visible only within the enum  
