@@ -1,8 +1,8 @@
 Undestand template type deduction
 =================================
 
-Base
-----
+Base material
+-------------
 
 The next scheme will be useful for type deducing
 
@@ -33,3 +33,4 @@ f(expr);
 - if *expr*'s type is a reference, ignore the reference part;
 - if *expr* is "const", ignore that, too;
 - if *expr* is "volatile", also ignore that.
+
