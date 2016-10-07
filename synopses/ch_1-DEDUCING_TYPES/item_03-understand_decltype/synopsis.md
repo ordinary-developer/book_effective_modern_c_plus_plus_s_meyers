@@ -1,8 +1,8 @@
 Understand decltype
 ===================
 
-Base
-----
+Base material
+-------------
 
 The "decltype(auto)" specifier means the next:
 "auto" specifies that the type is to be deduced,
