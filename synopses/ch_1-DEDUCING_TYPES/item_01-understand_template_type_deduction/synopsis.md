@@ -1,8 +1,8 @@
 Undestand template type deduction
 =================================
 
-Base
-----
+Base material
+-------------
 
 The next scheme will be useful for type deducing
 ```cpp
