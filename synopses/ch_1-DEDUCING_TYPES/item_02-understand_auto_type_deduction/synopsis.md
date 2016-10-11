@@ -1,8 +1,8 @@
 Understand auto type deduction
 ==============================
 
-Common
-------
+Base material
+-------------
 
 ```cpp
 template <typename T> 

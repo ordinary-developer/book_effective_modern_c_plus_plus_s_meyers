@@ -1,8 +1,8 @@
 Prefer alias declarations to "typedef"s
 =======================================
 
-Common
-------
+Base
+----
 
 - "typedef"s don't support templatization, but alias 
   declaration do;

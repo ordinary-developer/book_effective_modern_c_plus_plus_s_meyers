@@ -32,7 +32,7 @@ Summary
 
 - *noexcept* is part of a function's interaface, and that means
   that callers may depend on it;
-- *noexcept* functions are more optimizable than non-noexcept ones.
+- *noexcept* functions are more optimizable than non-noexcept ones;
 - *noexcept* is particularly valuable for the move operations, swap,
   memory deallocation functions, and destructors;
 - most functions are exception-neutral rather than *noexcept*.

@@ -1,8 +1,8 @@
 Use the explicitly typed initializer idiom
 ==========================================
 
-Common
-------
+Base
+----
 
 "Invisible" proxy types can cause "auto" to deduce
 the "wrong" type for an initializing expresion
