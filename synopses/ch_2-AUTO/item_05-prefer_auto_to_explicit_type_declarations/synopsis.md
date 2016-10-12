@@ -1,8 +1,8 @@
 Prefer auto to explicit type declarations
 =========================================
 
-Base
-----
+Base material
+-------------
 
 The advantages of auto:
 - avoidance of uninitialized variables;
