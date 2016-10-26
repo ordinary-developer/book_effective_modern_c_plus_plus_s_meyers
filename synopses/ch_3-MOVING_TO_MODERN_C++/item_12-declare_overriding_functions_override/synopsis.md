@@ -1,8 +1,8 @@
 Declare overriding functions override
 =====================================
 
-Common
-------
+Base material
+-------------
 
 For overriding to occur, several requirements (in C++98) must be met:
 - the base class function must be virtual;
