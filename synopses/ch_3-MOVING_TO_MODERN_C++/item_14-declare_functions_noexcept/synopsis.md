@@ -1,8 +1,8 @@
 Declare functions noexcept if they won't emit exceptions
 ========================================================
 
-Common
-------
+Base material
+-------------
 
 #### Wide contract
 
