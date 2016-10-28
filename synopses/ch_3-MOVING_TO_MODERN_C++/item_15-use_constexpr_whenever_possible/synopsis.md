@@ -43,7 +43,7 @@ use *constexpr*, not *const*.
   values.
 
  
-Xummary
+Summary
 -------
 
 - *constexpr* objects are *const* and are initialized with values 
