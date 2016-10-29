@@ -1,8 +1,8 @@
 Understand special member function generation
 =============================================
 
-Common
-------
+Base material
+-------------
 
 C++ has six special member functions:
 
