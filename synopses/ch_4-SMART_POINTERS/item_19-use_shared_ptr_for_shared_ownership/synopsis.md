@@ -1,8 +1,8 @@
 Use shared_ptr for shared-ownership resource management
 =======================================================
 
-Common
-------
+Base material
+-------------
 
 An object accessed via std::shared_ptr has its lifetime managed 
 by those pointers through shared ownership.
