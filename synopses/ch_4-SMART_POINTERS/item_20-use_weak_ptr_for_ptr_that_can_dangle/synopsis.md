@@ -1,8 +1,8 @@
 Use weak_ptr for shared_ptr-like pointers that can dangle
 =========================================================
 
-Base information
-----------------
+Base material 
+-------------
 
 "weak_ptr" has to contend with a problem unknown to "shared_ptr"s:
 the possibility that waht it point to has bee destroyed; a truly 
