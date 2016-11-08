@@ -2,6 +2,9 @@ When using Pimpl Idiom, define special member functions in the
 implementation file
 ===============================================================
 
+Base material
+-------------
+
 **Pimpl Idiom** is the technique whereby you replace the data members
 of a class with a pointer to an implementation class (or struct),
 put the data members that used to be in the primary class into the
