@@ -16,8 +16,8 @@ The parameter w is an lvalue, even though its type is
 rvalue-reference-to-Widget.
 
 
-Base
-----
+Base material
+-------------
 
 *std::move* and *std::forward* are merely functions (actually 
 function templates) that perform casts. *std::move* unconditionally
