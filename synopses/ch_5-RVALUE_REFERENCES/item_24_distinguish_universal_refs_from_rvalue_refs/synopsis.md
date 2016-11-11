@@ -1,7 +1,10 @@
 Distinguish universal references from rvalue references
 =======================================================
 
-T&& has two different meanings
+Base material
+-------------
+
+T&& has two different meanings:
 - rvalue reference  
   (they bind only to rvalues, and their primary raison d'etre
    is to identify objects that may be moved from);
