@@ -6,7 +6,7 @@ Encoding mechanism
 ------------------
 
 for the template
-```c++
+```cpp
 template <typename T>
 void func(T&& param);
 ```
