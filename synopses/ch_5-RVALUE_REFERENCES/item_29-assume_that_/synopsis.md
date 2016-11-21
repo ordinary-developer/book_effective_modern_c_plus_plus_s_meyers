@@ -14,7 +14,7 @@ Many types fail to support move semantics:
 - data members or base classes of types that have disabled moving
   (e.g., by deleting the move operations) will also suppres
   compiler-generated move operations;
-- For types without explicit support for moving and that don't
+- for types without explicit support for moving and that don't
   qualify for compiler-generated move operations, there is no reason
   to expect C++11 to deliver andy kind of performance improvement
   over C++98.
