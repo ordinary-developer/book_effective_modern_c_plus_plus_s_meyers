@@ -42,8 +42,8 @@ Kinds of arguments that can't be perfect-forwarded
   the result is that neither 0 nor NULL can be perfect-forwarded as
   a null pointer. The fix is easy, however: pass "nullptr" instead
   of 0 or NULL;
-- declaration-only integral static const data members.
-- overloaded function names and template names.
+- declaration-only integral static const data members;
+- overloaded function names and template names;
 - bitfilds.
 
 
