@@ -1,12 +1,12 @@
 AVOID DEFAULT CAPTURE MODES
 ===========================
 
-Basic information
------------------
+Basic material
+--------------
 
 There are two default capture modes in C++11:
-- by-reference 
-- by-value
+- by-reference; 
+- by-value.
 
 Default by-reference capture can lead to dangling references.  
 Default by-value capture lures you into thinking you're immune
@@ -55,7 +55,7 @@ These objects can be used inside lambdas, but they can't be captured.
 Summary
 -------
 
-- Default by-reference capture can lead to dangling references.
-- Default by-value capture is susceptible to dangling pointers
+- default by-reference capture can lead to dangling references;
+- default by-value capture is susceptible to dangling pointers
   (especially this), and it misleadingly suggests
   that lambdas are self-contained.
