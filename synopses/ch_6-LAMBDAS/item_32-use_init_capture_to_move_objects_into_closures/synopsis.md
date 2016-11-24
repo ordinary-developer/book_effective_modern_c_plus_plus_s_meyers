@@ -1,4 +1,5 @@
-# Use init capture to move objects into closures
+Use init capture to move objects into closures
+==============================================
 
 Init captures (C++14)
 ---------------------    
