@@ -15,7 +15,7 @@ and rvalues, passing decltype(x) to std::forward gives us the result
 we want.
 
 A perfect-forwarding lambda can be written like this:
-```
+```cpp
 auto f =
     [](auto&& param)
     {
@@ -25,7 +25,7 @@ auto f =
 ```
 
 A perferct-forwarding variadic lambda can be written like this:
-```
+```cpp
 auto f =
     [](auto&&... params)
     {
