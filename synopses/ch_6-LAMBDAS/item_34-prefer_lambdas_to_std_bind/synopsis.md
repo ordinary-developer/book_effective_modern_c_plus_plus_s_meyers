@@ -1,4 +1,5 @@
-# Prefer lambdas to std::bind
+Prefer lambdas to std::bind
+===========================
 
 lambdas versus std::bind
 ------------------------
