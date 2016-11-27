@@ -1,8 +1,8 @@
 Prefer task-based programming to thread-based
 =============================================
 
-Common
-------
+Base material
+-------------
 
 You can create a std::thread and run a function on it, thus employing
 a *thread-based* approach. Or you can pass a function do std::async,
