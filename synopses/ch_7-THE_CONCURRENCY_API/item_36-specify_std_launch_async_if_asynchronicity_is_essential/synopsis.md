@@ -1,8 +1,8 @@
 SPECIFY std::launch::async IF ASYNCHRONICITY IS ESSENTIAL
 =========================================================
 
-Common
-------
+Base material
+-------------
 
 Assuming a function f is passed to "std::async" for execution,
 - the "std::launch::async" launch policy means that f must be 
@@ -25,5 +25,4 @@ Summary
   and affects program logic for timeout-based "wait" calls;
 - specify std::launch::async if asynchronous task execution 
   is essential.
-
 
