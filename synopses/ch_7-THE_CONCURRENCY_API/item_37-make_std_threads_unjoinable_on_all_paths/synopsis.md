@@ -1,8 +1,8 @@
 MAKE std::threads UNJOINABLE ON ALL PATHS
 =========================================
 
-Common
-------
+Base material
+-------------
 
 Every std::thread object is in one of two states:
 - joinable;
