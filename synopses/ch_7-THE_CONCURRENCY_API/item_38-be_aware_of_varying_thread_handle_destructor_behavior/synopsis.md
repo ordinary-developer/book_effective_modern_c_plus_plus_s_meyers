@@ -1,8 +1,8 @@
 Be aware of varying thread handle destructor behavior
 =====================================================
 
-Common
-------
+Base material
+-------------
 
 Both std::thread objects and future objects can be thought of
 as handles to system threads.
