@@ -1,8 +1,8 @@
 void futures for one-shot event communication
 =============================================
 
-Common
-------
+Base material
+-------------
 
 You can *detect* an event and *react* to it by using 
 a cond-var mechanism, but it has some drawbacks
