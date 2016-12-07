@@ -1,8 +1,8 @@
 Use std::atomic for concurrency, volatile for special memory
 ============================================================
 
-Common
-------
+Base material
+-------------
 
 Instantiations of the *std::atomic* template offer operations
 that are guaranteed to be seen as atomic by other threads.
