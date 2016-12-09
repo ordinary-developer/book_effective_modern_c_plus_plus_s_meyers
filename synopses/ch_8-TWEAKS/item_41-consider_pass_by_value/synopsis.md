@@ -1,4 +1,8 @@
-## Consider pass by value for copyable parameters that are cheap to move and always copied
+Consider pass by value for copyable parameters that are cheap to move and always copied
+=========================================================================
+
+Base material
+------------
 
 - you should only consider using pass by value;
 - consider pass by value only for copyable parameters;
