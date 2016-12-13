@@ -43,6 +43,6 @@ Summary
   2. the argument type(s) passed differ from the type
       held by the container;
   3. the container won't reject the value being added 
-     due to it being a duplicate;
+     due to it being a duplicate.
 - emplacement functions may perform type convertions 
   that would be rejected by insertion functions.
